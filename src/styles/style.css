@@ -72,6 +72,13 @@ main{
     text-align: center;
     gap: 24px;
 }
+.hero-text > h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.hero-text > p{
+    font-size: 18px;
+}
 .btn-wrapper > button{
     padding: 12px 24px;
     border: 1px solid var(--color-black);
@@ -108,4 +115,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
+
+.footer-bottom > nav > a{
+    text-decoration: underline 1px black;
 }
